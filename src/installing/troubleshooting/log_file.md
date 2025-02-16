@@ -2,11 +2,11 @@
 title: The BepInEx Log
 ---
 
-# What is the BepInEx Log
+# What is the BepInEx Log?
 
 The BepInEx log is essentially just a list of messages from the game and plugins, a log of what has happened since you
-started the game. When you run the game modded a console window appears along side it and shows the log in real-time,
-but the messages are also written to a file in your profile folder so the messages can be retreived after the game is
+started the game. When you run the game modded a console window appears alongside it and shows the log in real-time,
+but the messages are also written to a file in your profile folder so the messages can be retrieved after the game is
 closed (usually for the purposes of troubleshooting an issue).
 
 Some mods may also implement in-game features using the log, such
@@ -15,11 +15,11 @@ any time.
 
 ## Finding your log file
 
-1. Open r2modman and go to the `Settings` section. Open your profile folder by clicking the following button:
+1. Open R2ModMan and go to the `Settings` section. Open your profile folder by clicking the following button:
 
    ![image](../images/r2modman/settings/browse_profile_folder.png)
 
-2. After clicking on the settings entry your current r2mm profile folder will be opened. Inside might look something
+2. After clicking on the settings entry your current R2ModMan profile folder will be opened. Inside might look something
    like this:
 
     ```text
@@ -47,7 +47,7 @@ helpful to know what comes before and after errors.
 > [!NOTE]
 > Sometimes log messages might show up as coming from the "Unity Log". Most of the time these messages come from the game itself, but in rare cases it might be a plugin using the game's Unity logger instead of the BepInEx provided logger.
 
-Next, we'll take a look at some warnings. Warnings can be a bit ambiguous as they sometimes are important and sometimes
+Next, we'll take a look at some warnings. Warnings can be a bit ambiguous as they are sometimes important and sometimes
 can be ignored. For example, most warnings from `HarmonyX` can be ignored as they are intended for the mod developer and
 not the end user. With any other kind of warning you will have to read the message to see if it may be important.
 
@@ -70,7 +70,7 @@ easy to read and can often be solved just as easily as they tell you exactly wha
 
 Next we have the unexpected errors, the exceptions. These are not usually errors you solve by yourself and will be much
 longer and contain almost entirely information exclusively for the mod author. They will still contain a message on the
-first line but it may be of no use to you, and the rest just tells the author where in the code this happens. If you see
+first line, but it may be of no use to you, and the rest just tells the author where in the code this happens. If you see
 one of these, chances are you will need to ask for assistance and share your log file through Discord.
 
 ```
@@ -90,15 +90,10 @@ TNHTweaker.TNHTweaker.Awake ()
 
 If you are asked to share your log file to receive assistance, sharing it via Discord is quite easy.
 
-1. Go to the `Settings` section of r2modman
-2. Search for "log", and select "Copy LogOutput contents to clipboard".
+1. Go to the `Settings` section of R2ModMan,
+2. Search for "log" and select "Copy LogOutput contents to clipboard",
 
    ![copy](../images/r2modman/settings/copy_LogOutput.png)
 
-3. Then, paste the log output into Discord by right clicking on the chat box and selecting 'paste', or with the chat box
-   focused use `Ctrl + V`
-4. A message will appear asking you to upload a file instead, insert a caption describing the issue if you haven't
-   already, then click upload.
-
-   ![upload](../images/Discord/large_message.png)
-5. Hopefully someone will look at your log soon and provide a fix or forward the issue to whoever needs to see it.
+3. Then paste the log output into Discord by right-clicking on the chat box and selecting 'paste' or pressing `Ctrl + V`,
+4. And hopefully someone will look at your log soon and provide a fix or forward the issue to whoever needs to see it.

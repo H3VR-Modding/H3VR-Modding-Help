@@ -2,7 +2,11 @@
 title: Deli mods
 ---
 
-Deli is a popular format of packaging mods, and can be anything from maps, code mods, or guns.
+> [!WARNING]
+> Deli is not supported anymore. The following information is here for legacy reasons only. If you were linked here
+from a seemingly updated article, [open an issue](https://github.com/H3VR-Modding/wiki/issues/new).
+
+Deli was a popular format of packaging mods, and can be anything from maps, code mods, or guns.
 
 All a `.deli` file is, is a `.zip` renamed.
 
@@ -65,7 +69,7 @@ mod.deli/
         vault_...
 ```
 
-Your `character.json` file should be inside of a folder, named anything you want. In this example I used the `character`
+Your `character.json` file should be inside a folder, named anything you want. In this example I used the `character`
 name. Your sosigs should have the "sosig_" prefix, and your vault files should have the "vault_" prefix.
 
 This should make the following list for you to copy into your `"asssets"` list:
@@ -116,7 +120,7 @@ mod.deli/
 ```
 
 Your `item` is the assetbundle created through Unity. You do not need to include its `.manifest` file, but you can.
-Do **NOT** reference this file inside of the manifest.
+Do **NOT** reference this file inside the manifest.
 
 This should make the following list for you to copy into your `"asssets"` list:
 
