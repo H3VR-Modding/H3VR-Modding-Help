@@ -15,8 +15,8 @@ There are currently three main mod managers used by the community, that being:
 | [Thunderstore Mod Manager](https://www.overwolf.com/app/thunderstore-thunderstore_mod_manager)                           | [Gale Mod Manager](https://github.com/Kesomannen/gale/releases/latest)                                                                                                                                                      | [R2ModMan](https://github.com/ebkr/r2modmanPlus/releases/latest)                                                                                                               |
 |--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The original and most-used mod manager with no particularly defining features. Has ads. Available via Overwolf Appstore. | Cutting-edge option, radically different UI and much more exhaustive functionality, at the cost of stability. Available via GitHub & [Thunderstore](https://thunderstore.io/c/lethal-company/p/Kesomannen/GaleModManager/). | Fork of Thunderstore Mod Manager with updated functionality and without advertisements. Available via GitHub & [Thunderstore](https://thunderstore.io/package/ebkr/r2modman/). |
-
-This guide is for R2ModMan, but the setup process isn't too different between the mod managers.
+ 
+All information on this wiki refers to R2ModMan, but the setup process isn't too different between the mod managers.
 
 ## Installing Mods via R2ModMan
 
